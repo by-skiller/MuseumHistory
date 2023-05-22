@@ -1,0 +1,360 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+@font-face {
+    font-family: 'LavozaRegular-ZVYD3';
+    src: url(../fonts/lavoza-font/LavozaRegular-ZVYD3.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+main {
+    text-shadow: 3px 1px 3px rgba(0, 0, 0, 0.409);
+    height: 100vh;
+    background-image: url(../imagens/wallpaperbetter.com_2560x1440\ \(5\).jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+#logo {
+    margin-left: 50px;
+    font-family: 'LavozaRegular-ZVYD3';
+    font-size: 30px;
+    
+    
+}
+
+#logo a{
+    color:  #802121;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 50px;
+    font-family: 'LavozaRegular-ZVYD3';
+    font-size: 23px;
+    transition-duration: 0.3s;
+}
+
+nav a:hover {
+    color: #6a3527;
+}
+
+#btnbuy {
+    padding: 11px;
+    border: 1px solid  #6a3527;;
+    color: #6a3527;
+    transition-duration: 0.3s;
+}
+
+#btnbuy:hover {
+    color: #ffffff;
+    background-color: #6a3527;
+}
+
+#titulo {
+    margin-top: 230px;
+    letter-spacing: 4px;
+    font-family: 'LavozaRegular-ZVYD3';
+}
+
+#tittle {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.409);
+    color: #e3e3e3;
+     font-size: 140px;
+     margin-top: 20px;
+     transition-duration: 0.3s;
+}
+
+#tittle:hover {
+    color: #ebebeb;
+    font-size: 145px;
+}
+
+#cor {
+    color: #6a3527;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.409);
+}
+
+#welcome {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.409);
+    color: #eaeaea;
+    letter-spacing: 15px;
+    font-size: 30px;
+}
+
+#modern {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.409);
+    color: #eaeaea;
+    letter-spacing: 50px;
+    font-size: 60px;
+}
+
+article#meio {
+    padding: 150px;
+    background-color: #2e150d;
+    color: rgb(255, 255, 255);
+}
+
+#meio h1 {
+    color: rgb(222, 222, 222);
+    font-size: 40px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.409);
+    font-family: 'LavozaRegular-ZVYD3';
+}
+
+#meio p {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.409);
+  font-family: 'LavozaRegular-ZVYD3';
+  font-size: 30px;
+  width: 70%;
+  text-align: justify;
+  margin: 0 auto;
+  line-height: 50px;
+  color: rgb(222, 222, 222);
+ 
+}
+
+#meio a {
+    text-decoration: none;
+    
+    color: rgb(0, 0, 0);
+    transition-duration: 0.2s;
+}
+
+#meio a:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+#paralax {
+    padding-top: 30vh;
+    padding-bottom: 20vh;
+    background-image: url(../imagens/florest.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+#paralax p {
+    display: none;
+    
+}
+
+article#home {
+    padding-top: 70px;
+    padding-bottom: 2vh;
+    height: 60vh;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.409);
+    font-family: 'LavozaRegular-ZVYD3';
+    background-color: #303315;
+    background-image: url(../imagens/wallpaperbetter.com_2560x1440.jpg);
+    background-size: cover;
+    background-position: bottom bottom;
+    text-align: center;
+  
+}
+
+article#home h1 {
+    font-size: 60px;
+    text-align: left;
+    margin-left: 350px;
+    
+}
+
+article#home p {
+    background-color: rgba(0, 0, 0, 0.531);
+    font-size: 30px;
+    padding: 30px;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 50px;
+}
+
+#paralax2 {
+    padding-top: 30vh;
+    padding-bottom: 20vh;
+    background-image: url(../imagens/sky.jpg);
+    background-size: cover;
+    background-position: top top;
+    background-attachment: fixed;
+}
+
+
+#paralax2 p {
+    display: none;
+}
+
+#continuacao {
+    padding: 100px;
+    background-color: #978b7c;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 auto;
+    height: 60vh;
+}
+
+#continuacao h1 {
+    color: rgb(222, 222, 222);
+    font-size: 40px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    font-family: 'LavozaRegular-ZVYD3';
+}
+
+aside {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #978b7c;
+}
+
+aside img {
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px black;
+}
+
+
+
+#girl h1 {
+    margin-top: -310px;
+    font-size: 36px;
+}
+
+#girl h2 {
+    font-size: 60px;
+    font-family: 'LavozaRegular-ZVYD3';
+    margin-top: -40px;
+    color: rgb(222, 222, 222);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.879);
+}
+
+#kid h1 {
+    margin-top: -310px;
+    font-size: 36px;
+}
+
+#kid h2 {
+    font-size: 60px;
+    font-family: 'LavozaRegular-ZVYD3';
+    margin-top: -40px;
+    color: rgb(222, 222, 222);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.879);
+}
+
+#redhead h1 {
+    margin-top: -310px;
+    font-size: 36px;
+}
+
+#redhead h2 {
+    font-size: 60px;
+    font-family: 'LavozaRegular-ZVYD3';
+    margin-top: -40px;
+    color: rgb(222, 222, 222);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.879);
+}
+
+#dog h1 {
+    margin-top: -310px;
+    font-size: 36px;
+}
+
+#dog h2 {
+    font-size: 60px;
+    font-family: 'LavozaRegular-ZVYD3';
+    margin-top: -40px;
+    color: rgb(222, 222, 222);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.879);
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#about {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#about a {
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+#about a:hover {
+    text-decoration: underline;
+}
+
+#our {
+    text-align: justify;
+     display: flex;
+     flex-direction: column;
+}
+
+#our a {
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+#our a:hover {
+    text-decoration: underline;
+}
+
+#contact {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact a {
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+
+
+
